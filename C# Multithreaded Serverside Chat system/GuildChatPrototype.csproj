@@ -63,7 +63,7 @@
     <Compile Include="DemoMain.cs" />
     <Compile Include="GuildStuff\Guild.cs" />
     <Compile Include="GuildStuff\GuildChat.cs" />
-    <Compile Include="Factories\ChannelManager.cs" />
+    <Compile Include="Managers\ChannelManager.cs" />
     <Compile Include="PlayerStuff\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Threading\ChatThread.cs" />

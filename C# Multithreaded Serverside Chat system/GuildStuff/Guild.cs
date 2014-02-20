@@ -18,16 +18,33 @@ namespace GuildChatPrototype.GuildStuff
 
 		private ReaderWriterLockSlim GuildPlayersLockObject;
 
+
+		private GuildChat guildChat;
 		private ChatChannel<Player> _Chat;
 		public ChatChannel<Player> Chat
 		{
 			get { return _Chat; }
-			private set { this._Chat = value; }
+			private set 
+			{ 
+				this._Chat = value;
+				//Not decidied whether to make GuildChat its own property
+				//Right now it doesn't have any further implementation than a ChatChannel<T> soooo no point yet.
+				//Maybe in the future.
+				try
+				{
+					this.guildChat = (GuildChat)value;
+				}
+				catch (InvalidCastException e)
+				{
+					//TODO: Log it or something.
+				}
+			}
 		}
 
 		//This is a demo
 		public Guild(ChannelManager ChannelMngr)
 		{
+			GuildPlayersLockObject = new ReaderWriterLockSlim();
 			this.Chat = ChannelMngr.generateChatChannel(ChannelType.GuildChat, this.GuildPlayers, GuildPlayersLockObject);
 			this.GuildPlayers = new List<Player>(10);
 		}

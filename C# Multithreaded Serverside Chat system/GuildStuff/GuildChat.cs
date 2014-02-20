@@ -20,8 +20,9 @@ namespace GuildChatPrototype.Chat
 			: base(listeners, chanType, uID)
 		{
 			ListenersLock = lockObject;
+			this.MessageHandler = channelFactoryReference;
 
-			//Happens in base
+			//Handles some stuff in base too
 		}
 
 		//Contains methods related to ChatChannel implementation
