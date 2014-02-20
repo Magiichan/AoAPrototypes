@@ -1,0 +1,14 @@
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\GuildChatPrototype.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\GuildChatPrototype.pdb
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGames.Logging.Log4Net.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGamesLibs.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\log4net.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\Photon.SocketServer.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGames.Logging.Log4Net.pdb
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGames.Logging.Log4Net.xml
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGamesLibs.pdb
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\ExitGamesLibs.xml
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\Photon.SocketServer.pdb
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\bin\Debug\Photon.SocketServer.xml
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\obj\Debug\GuildChatPrototype.dll
+C:\Users\Andrew Blakely\Desktop\GuildChatPrototype\obj\Debug\GuildChatPrototype.pdb
